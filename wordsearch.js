@@ -37,7 +37,7 @@
 // whatever task was to be done in the function passed into map.
 //}
 //}}
-/////
+///
 const wordSearch = (letters, word) => {
   const horizontalJoin = letters.map(ls => ls.join(''))
   const verticalJoin = letters.map((col, i) => letters.map(row => row[i]).join(''));
@@ -79,3 +79,6 @@ module.exports = wordSearch
 //   matrix = newMatrix;
 //   return matrix;
 // };
+
+/// Worked on by: 
+// Scott --Discord: (daemoonkid) // Arpi Patel --Discord: (arpi_23655)
